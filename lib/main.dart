@@ -10,6 +10,7 @@ void main() {
         primaryColor: Colors.lightBlueAccent,
         accentColor: Colors.lightBlue,
       ),
+      debugShowCheckedModeBanner: false,
       home: ShowScreen(),
     ),
   );
