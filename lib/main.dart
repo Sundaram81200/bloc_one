@@ -6,6 +6,10 @@ void main() {
   runApp(
     MaterialApp(
       title: 'Bloc App',
+      theme: ThemeData(
+        primaryColor: Colors.lightBlueAccent,
+
+      ),
       home: ShowScreen(),
     ),
   );
